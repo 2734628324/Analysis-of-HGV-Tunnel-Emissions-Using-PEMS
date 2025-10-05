@@ -1,0 +1,15 @@
+# 忽略数据和结果文件
+data/
+results/
+logs/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+.mypy_cache/
+
+# Jupyter Notebooks 临时文件和 Checkpoints
+.ipynb_checkpoints
