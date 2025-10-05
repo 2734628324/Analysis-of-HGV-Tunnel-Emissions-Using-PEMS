@@ -24,3 +24,4 @@ LNG_SEGMENTS_FILE_PATH = DATA_DIR / 'segments_lng.xlsx'
 # --- 输出路径 ---
 PLOTS_DIR = PROJECT_ROOT / 'results' / 'figures'
 PLOTS_DIR.mkdir(parents=True, exist_ok=True) 
+
