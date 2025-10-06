@@ -25,6 +25,11 @@ DIESEL_SEGMENTS_FILE_PATH = RAW_DATA_DIR / '国六柴油_隧道时间与分类_s
 LNG_RAW_DATA_FILE_PATH = PROCESSED_DATA_DIR / 'Heavy_LNG_G6_01_processed.csv'
 LNG_SEGMENTS_FILE_PATH = RAW_DATA_DIR / '国六LNG_隧道时间与分类_segments.xlsx'
 
+# --- 数据输出路径 ---
+# 定义处理完成后，带有标签的数据的保存路径
+DIESEL_TAGGED_OUTPUT_PATH = PROCESSED_DATA_DIR / 'Heavy_Diesel_G6_01_tagged.csv'
+LNG_TAGGED_OUTPUT_PATH = PROCESSED_DATA_DIR / 'Heavy_LNG_G6_01_tagged.csv'
+
 
 # --- 输出路径 ---
 RESULTS_DIR = PROJECT_ROOT / 'results'
